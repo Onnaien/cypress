@@ -1,27 +1,6 @@
-# Cypress general documentation <!-- omit in toc -->
-
-- [Getting started](#getting-started)
-  - [Cypress web-site](#cypress-web-site)
-    - [Documentation](#documentation)
-  - [Training/courses](#trainingcourses)
-    - [Cypress.io](#cypressio)
-    - [Test Automation University](#test-automation-university)
-      - [General and introduction](#general-and-introduction)
-      - [Advanced/others](#advancedothers)
-      - [API testing](#api-testing)
-- [Ambassadours/experts](#ambassadoursexperts)
-  - [Filip Hric](#filip-hric)
-  - [Gleb Bahmutov](#gleb-bahmutov)
-- [Selected useful tips, tricks and modules](#selected-useful-tips-tricks-and-modules)
-
-## Getting started
-
-### Cypress web-site
+# Cypress
 
 - [cypress.io](https://www.cypress.io/)
-
-#### Documentation
-
 - [Cypress documentation and guides](https://docs.cypress.io/guides/overview/why-cypress)
 
 ### Training/courses

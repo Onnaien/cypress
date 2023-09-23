@@ -4,5 +4,8 @@ theme:
 # Main navigation menu, edit to create your sub menu; retain main menu.
 nav:
     - Welcome:                              index.md
-    - Cypress course:                       cypress-course/cypress-course.md
+    - Tools:                                tools.md
+    - Powershell:                           powershell.md
+    - Bash:                                 bash.md
     - Cypress resources:                    cypress-resources/cypress.md
+    - Cypress course:                       cypress-course/cypress-course.md

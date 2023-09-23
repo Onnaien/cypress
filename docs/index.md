@@ -1,5 +1,3 @@
-# Welcome to my Cypress site
+# Welcome to my help site
 
-Select [Cypress course](cypress-course/cypress-course.md) to get help with installing prerequisites to the [learn.cypress.io course](https://learn.cypress.io)
-
-Select [Cypress resources](cypress-resources/cypress.md) to get information on useful sites, courses and other resources.
+On this site I note down things I want to remember about tools and usage

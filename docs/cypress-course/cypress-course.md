@@ -1,25 +1,9 @@
 # Introduction to Cypress course <!-- omit in toc -->
 
-## Table of contents <!-- omit in toc -->
-
-- [Introduction](#introduction)
-- [Windows terminal](#windows-terminal)
-- [visual studio code](#visual-studio-code)
-- [NodeJS](#nodejs)
-- [git](#git)
-- [github cli](#github-cli)
-- [Cypress course code installation](#cypress-course-code-installation)
-- [Tips and recommendations](#tips-and-recommendations)
-  - [winget](#winget)
-  - [add completion to winget](#add-completion-to-winget)
-  - [Windows terminal administrator mode](#windows-terminal-administrator-mode)
-  - [examples of winget usage](#examples-of-winget-usage)
-  - [nvm tool can be installed if you need to switch between several versions of node](#nvm-tool-can-be-installed-if-you-need-to-switch-between-several-versions-of-node)
-  - [node installation by using nvm (including npm tool) for Cypress course (latest Long Term Support)](#node-installation-by-using-nvm-including-npm-tool-for-cypress-course-latest-long-term-support)
-  - [Optional npm add-on](#optional-npm-add-on)
-  - [windows powershell addons](#windows-powershell-addons)
-
 ## Introduction
+
+This was a help site when running the learn.cypress.io course for mostly non-developers.
+Just kept for reference.
 
 We start by installing tools that are needed to run the course.
 This part is replacing the part in the course that describe needed tool installation. The reason for replacing it, is to try to create a more complete and easy to follow installation guide.
@@ -216,7 +200,7 @@ nvm install lts
 
 ### Optional npm add-on
 
-If you run npm commands very often, install this module globally to make life easier, ref. [organizing npm scripts](https://glebbahmutov.com/blog/organize-npm-scripts/) and [npm-quick-run](https://github.com/bahmutov/npm-quick-run):
+If you run npm commands very often, install this mo dule globally to make life easier, ref. [organizing npm scripts](https://glebbahmutov.com/blog/organize-npm-scripts/) and [npm-quick-run](https://github.com/bahmutov/npm-quick-run):
 
 ```powershell
 npm i -g npm-quick-run
