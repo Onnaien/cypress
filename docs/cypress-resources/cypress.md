@@ -51,8 +51,3 @@ The courses mentioned above are the first 6 ones listed in the Web UI JavaScript
 ### [Gleb Bahmutov](https://glebbahmutov.com/)
 
 - [cypress.tips](https://cypress.tips/)
-
-## Selected useful tips, tricks and modules
-
-- [Create documentation videos](cypress_documentation_videos.md)
-- [Information on how to set up Cypress testing for you product](setup-cypress.md)
