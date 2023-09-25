@@ -3,7 +3,37 @@
 - [cypress.io](https://www.cypress.io/)
 - [Cypress documentation and guides](https://docs.cypress.io/guides/overview/why-cypress)
 
-### Training/courses
+## Useful modules
+
+### @cypress/grep
+
+Used to filter the tests to be run
+
+### cy-verify-downloads
+
+Used in download tests
+
+### cypress-plugin-api
+
+Using cy.api() instead of cy.request() to get more (and prettier?) information when run from GUI.
+
+### cypress-real-events
+
+Using cy.realType() instead of cy.type() helps solving some issues when using cy.type()
+
+### start-server-and-test
+
+Used to make local tests more efficient starting and stopping server etc.
+
+This is not a cypress module, but are used when running cypress tests locally.
+
+See module documentation for further info.
+
+### typescript
+
+Needed to use typescript in Cypress
+
+## Training/courses
 
 #### Cypress.io
 

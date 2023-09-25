@@ -20,5 +20,5 @@ nav:
     - Git:                                  git/git.md
     - Powershell:                           powershell.md
     - Bash:                                 bash.md
-    - Cypress resources:                    cypress-resources/cypress.md
+    - Cypress:                              cypress-resources/cypress.md
     - Cypress course:                       cypress-course/cypress-course.md
