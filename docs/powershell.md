@@ -14,8 +14,12 @@ Add these lines to the file:
 # Prompt theme engine
 # https://ohmyposh.dev/
 #-----------------------------------------------------------
-Import-Module posh-git
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression
+#Import-Module posh-git
+# interesting themes: cobalt2 multiverse-neon peru powerlevel10k_rainbow
+#oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\the-unnamed.omp.json" | Invoke-Expression
+#oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\powerlevel10k_rainbow.omp.json" | Invoke-Expression
+#oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\multiverse-neon.omp.json" | Invoke-Expression
 ```
 
 ## commands history
