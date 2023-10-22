@@ -118,20 +118,10 @@ function Get-MyLocationAliases {
 New-Alias gloc Get-MyLocationAliases
 #-----------------------------------------------------------
 #-----------------------------------------------------------
-function Set-LocationPrixCypress {
-    Set-Location c:\git\prix-dev-branches\ras\src\Ras.Ui\ClientApp\
-}
-New-Alias slprix Set-LocationPrixCypress
-#-----------------------------------------------------------
-function Set-LocationPrixTestCypress {
-    Set-Location c:\git\prix-test-branches\prix\src\Ras.Ui\ClientApp\
-}
-New-Alias slprixtest Set-LocationPrixTestCypress
-#-----------------------------------------------------------
 function Set-LocationGit {
     Set-Location c:\git\
 }
-New-Alias slgit Set-LocationGit
+New-Alias g Set-LocationGit
 
 #-----------------------------------------------------------
 # Git aliases
@@ -219,20 +209,5 @@ function Open-CypressGui-Dev {
     npx cypress open
 }
 New-Alias cypopendev Open-CypressGui-Dev
-#-----------------------------------------------------------
-function Open-CypressGui-Test {
-    npx cypress open --config baseUrl=https://eq-prix-test.azurewebsites.net --env API_URL=https://eq-prix-test.azurewebsites.net/api
-}
-New-Alias cypopentest Open-CypressGui-Test
-#-----------------------------------------------------------
-function Invoke-CypressRunDev {
-    npx cypress run --browser chrome
-}
-New-Alias cyprundev Invoke-CypressRunDev
-#-----------------------------------------------------------
-function Invoke-CypressRunTest {
-    npx cypress run --browser chrome --config baseUrl=https://eq-prix-test.azurewebsites.net --env API_URL=https://eq-prix-test.azurewebsites.net/api
-}
-New-Alias cypruntest Invoke-CypressRunTest
 #-----------------------------------------------------------
 ```
