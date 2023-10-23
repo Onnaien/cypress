@@ -1,5 +1,6 @@
 # Git
 
+[autocomplete](https://github.com/dahlbyk/posh-git)
 ## rebase
 
 [git-rebase](https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase)
