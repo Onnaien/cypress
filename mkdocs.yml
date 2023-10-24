@@ -28,9 +28,10 @@ markdown_extensions:
 # Main navigation menu, edit to create your sub menu; retain main menu.
 nav:
     - Welcome:                              index.md
+    - Front end development:                frontEnd.md
+    - Cypress:                              cypress-resources/cypress.md
+    - Cypress course:                       cypress-course/cypress-course.md
     - Tools:                                tools.md
     - Git:                                  git/git.md
     - Powershell:                           powershell.md
     - Bash:                                 bash.md
-    - Cypress:                              cypress-resources/cypress.md
-    - Cypress course:                       cypress-course/cypress-course.md
