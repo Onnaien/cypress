@@ -62,6 +62,12 @@ If you run npm commands very often, install this module globally to make life ea
 npm i -g npm-quick-run
 ```
 
+[npm check updates](https://www.npmjs.com/package/npm-check-updates
+)
+```powershell
+npm install -g npm-check-updates
+```
+
 ## mkdocs material
 
 [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
