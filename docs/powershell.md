@@ -1,5 +1,41 @@
 # Powershell
 
+## Store your powershell profile in a git repo using symbolic links
+
+This can be useful if you want to share the same powershell profile on different computers/enironments.
+
+In order to use powershell profile, remote signed policy is needed:
+
+```powershell
+get-executionpolicy
+RemoteSigned
+```
+
+Create a repo named something like `my-powershell-setup`
+
+Add `symlink.ps1` script like:
+
+```powershell
+# Avoiding drive letter to cope with using c on one computer and d on another:
+$gitRepoPath = "/git/my-powershell-setup/"
+$symlinkParams = @{
+  Path = $PROFILE
+  Value = "$gitRepoPath/PowerShell/Microsoft.PowerShell_profile.ps1"
+  ItemType = 'SymbolicLink'
+  Force = $true
+}
+New-Item @symlinkParams
+```
+
+Create a (most likely copy your existing) powershell profile in the repo:
+
+```powershell
+./PowerShell/Microsoft.PowerShell_profile.ps1
+```
+
+Run the symlink script in powershell admin mode:
+![symlink-script](image-1.png)
+
 ## prompt line
 
 ```powershell
