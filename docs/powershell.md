@@ -2,6 +2,8 @@
 
 ## Store your powershell profile in a git repo using symbolic links
 
+Ref. [Use symlinks to version-control your PowerShell profile with Git](https://mikefrobbins.com/2023/11/09/use-symlinks-to-version-control-your-powershell-profile-with-git/)
+
 This can be useful if you want to share the same powershell profile on different computers/enironments.
 
 In order to use powershell profile, remote signed policy is needed:
